@@ -1,0 +1,21 @@
+@font-face {
+  font-family: nanum-square-round;
+  src: url(./nanum-square-round/NanumSquareRoundOTFL.otf);
+  font-weight: 300;
+  
+}
+@font-face {
+  font-family: nanum-square-round;
+  src: url(./nanum-square-round/NanumSquareRoundOTFR.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: nanum-square-round;
+  src: url(./nanum-square-round/NanumSquareRoundOTFB.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: nanum-square-round;
+  src: url(./nanum-square-round/NanumSquareRoundOTFEB.otf);
+  font-weight: 800;
+}

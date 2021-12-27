@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ford Mustang</title>
+  <link rel="icon" href="./favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Saira:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet" />
+  <link rel="stylesheet" href="./fonts/nanum-square.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <script src="https://kit.fontawesome.com/d715487fe4.js" crossorigin="anonymous"></script>
+  <script defer src="./js/common.js"></script>
+  <script defer src="./js/main.js"></script>
+  <link rel="stylesheet" href="./css/common.scss" />
+  <link rel="stylesheet" href="./css/main.scss" />
+</head>
+<body>
+  
+  <header>
+    <ul class="header-menu">
+      <li class="logo">
+        <a href="./index.html">
+          <img src="./images/logo-mustang.png" alt="">
+          FORD MUSTANG
+        </a>
+      </li>
+      <li>
+        <a href="./components/vehicle.html">Vehicle</a>
+      </li>
+      <li>
+        <a href="./components/tech.html">Technology</a>
+      </li>
+      <li>
+        <a href="./components//company.html">About Ford</a>
+      </li>
+      <li>
+        <a href="./components/cc.html">Customer Center</a>
+      </li>
+      <li class="lang-select">
+        <a href="javascript:void(0);">
+          <span class="lang-select-text">KO</span>
+          <span class="material-icons arrow-down">
+            keyboard_arrow_down
+          </span> 
+        </a>
+        <div class="lang-box">
+          <div>KO</div>
+          <div>EN</div>
+        </div>
+      </li>
+      <li class="gnb">
+        <ul>
+          <li>
+            <a href="./components/signin.html">sign in</a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">join us</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    
+  </header>
+  <div class="mobile-header-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
+
+  <!-- header -->
+  <section class="main-section">
+    <div class="main-title">
+      <p>아찔한 속도감</p>
+      <p>포드 머스탱과 함께 느껴보세요</p>
+    </div>
+    <ul>
+      <li>
+        <a href="./components/vehicle.html">
+          <span>포드 머스탱 차종 모두보기</span>
+        </a>
+      </li>
+      <li>
+        <a href="./components/tech.html">
+          <span>포드 머스탱만의 기술력이 궁금하신가요?</span>
+        </a>
+      </li>
+      <li class="main-test-modal-btn">
+          <a href="javascript:void(0);">
+              <span>시승 신청하고 포드 머스탱을 경험해보세요</span>
+          </a>
+      </li>
+    </ul>
+    <div class="scroll-down-btn">
+      <span>scroll<br>down</span>
+      <span class="material-icons scroll-down-arrow">
+        arrow_downward
+        </span>
+    </div>
+    <div class="test-drive-modal">
+      <form action="">
+        <h3>시승신청하기</h3>
+        <span class="material-icons modal-cancle">
+          close
+          </span>
+        <h4>모델선택 <span>*</span></h4>
+        <select name="car" id="car" class="test-drive-input">
+          <option value="1">2.3L COUPE</option>
+          <option value="2">2.3L CONVERTIBLE</option>
+          <option value="3">5.0L GT COUPE</option>
+          <option value="4">5.0L GT CONVERTIBLE</option>
+        </select>
+        <h4>이름 <span>*</span></h4>
+        <input type="text" class="test-drive-input">
+        <h4>이메일</h4>
+        <input type="text" class="test-drive-input">
+        <h4>휴대폰 번호 <span>*</span></h4>
+        <input type="text" class="test-drive-input">
+        <h4>전시장선택 <span>*</span></h4>
+        <select name="museum" id="museum" class="test-drive-input">
+          <option value="">강릉 전시장(더파크모터스)</option>
+          <option value="">강서 전시장(선인자동차)</option>
+          <option value="">구리 전시장(더파크모터스)</option>
+          <option value="">광주 전시장(이한모터스)</option>
+          <option value="">동대문 전시장(선인자동차)</option>
+          <option value="">대구 전시장(선인자동차)</option>
+          <option value="">대전 전시장(선인자동차)</option>
+          <option value="">대치 전시장(선인자동차)</option>
+          <option value="">마포 전시장(선인자동차)</option>
+          <option value="">미아 전시장(더파크모터스)</option>
+          <option value="">분당 전시장(선인자동차)</option>
+          <option value="">부산 수영 전시관(선인자동차)</option>
+          <option value="">부산 해운대 전시관(프리미어모터스)</option>
+          <option value="">부천 전시장(프리미어모터스)</option>
+          <option value="">수원 전시장(선인자동차)</option>
+          <option value="">순천 전시장(이한모터스)</option>
+          <option value="">용인 전시장(더파크모터스)</option>
+          <option value="">원주 전시장(더파크모터스)</option>
+          <option value="">의정부 전시장(더파크모터스)</option>
+          <option value="">전주 전시장(선인자동차)</option>
+          <option value="">창원 전시장(프리미어모터스)</option>
+          <option value="">춘천 전시장(더파크모터스)</option>
+          <option value="">포항 전시장(프리미어모터스)</option>
+        </select>
+        <h4>추가 요청사항</h4>
+        <input type="text" class="test-drive-input test-drive-input-plus ">
+        <button type="submit" class= "test-drive-input submit-btn btn">신청하기</button>
+      </form>
+    </div>
+    
+  </section>
+
+  <section class="section2">
+    <div class="inner">
+      <div class="section2-img-box">
+
+      </div>
+      <div class="section2-content">
+        <h2>Ford Mustang is best choice</h2>
+        <p>포드 머스탱의 기술력</p>
+        <p>선택의 이유가 있습니다</p>
+        <a href="./components/tech.html" class="btn">
+          Technology view
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section3">
+    <div class="inner">
+      <div class="section3-right">
+        <div class="section3-img1 section3-img">
+          <img src="https://www.ford.co.kr/content/ford/kr/ko_kr/home/cars/mustang/features/design/_jcr_content/par/splitter_762649498/splitter1/image/image.imgs.full.high.jpg" alt="Mustang">
+          <h4>
+            <a href="">
+              2.3L 에코부스트 모델에는 퍼포먼스 패키지를 적용함으로써 포드 머스탱의 성능 향상을 가능하게 하며,
+            5.0L GT 프리미엄 모델에는 V8 엔진 특유의 성능을 더해 줄 GT 퍼포먼스 패키지를 적용함으로써
+            머스탱 특유의 강렬함과 짜릿함을 마음껏 느끼실 수 있습니다.
+            <span class="material-icons arrow-right">
+              trending_flat
+              </span>
+            </a>
+          </h4>
+        </div>
+      </div>
+      <div class="section3-left">
+        <h3>
+          2021 FORD MUSTANG <br/>
+          NEW MODEL
+        </h3>
+        <div class="section3-img2 section3-img">
+          <img src="https://www.ford.co.kr/content/ford/kr/ko_kr/home/cars/mustang/features/design/_jcr_content/par/splitter_170781015/splitter1/image/image.imgs.full.high.png" alt="Mustang">
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="section4">
+    <div class="inner">
+      <ul>
+        <li>
+          <a href="javascript:void(0);">
+            <p>가까운 전시장에 들러 머스탱을 경험해보세요</p>
+            <b>SEARCH MORE</b>
+            <span class="material-icons">
+              airport_shuttle
+              </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=8lJYcB-o6G0" target="_blank">
+            <h6>2021 MUSTANG<br />영상 보러가기</h6>
+            
+            <div>
+              <div>
+                <span class="material-icons play-circle">
+                  play_arrow
+                  </span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-sns">
+    <div class="inner">
+      <ul>
+        <li class="sns-title">
+          <p>
+            <img src="./images/insta-logo.jpg" alt="">
+            <span>
+              FORD KOREA CHANNEL OPEN
+            </span>
+          </p>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/fordkorea/" target="_blank">
+            <img src="./images/sns-img1.jpg" alt="fordkorea">
+            <p><span>바로가기</span></p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/fordkorea/" target="_blank">
+            <img src="./images/sns-img2.jpg" alt="">
+          <p><span>바로가기</span></p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/fordkorea/" target="_blank">
+            <img src="./images/sns-img3.jpg" alt="">
+            <p><span>바로가기</span></p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/fordkorea/" target="_blank">
+            <img src="./images/sns-img4.jpg" alt="">
+            <p><span>바로가기</span></p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/fordkorea/" target="_blank">
+            <img src="./images/sns-img5.jpg" alt="">
+            <p><span>바로가기</span></p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/fordkorea/" target="_blank">
+            <img src="./images/sns-img6.jpg" alt="">
+            <p><span>바로가기</span></p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/fordkorea/" target="_blank">
+            <img src="./images/sns-img7.jpg" alt="">
+            <p><span>바로가기</span></p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/fordkorea/" target="_blank">
+            <img src="./images/sns-img8.jpg" alt="">
+            <p><span>바로가기</span></p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="inner">
+      <div class="footer-top">
+        <ul class="footer-logo">
+          <li>
+            <a href="./index.html">
+              <img src="./images/logo-mustang.png" alt="">
+            </a>
+          </li>
+        </ul>
+        <ul class="footer-lnb">
+          <li>
+            <a href="javascript:void(0);">
+              저작권안내
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">
+              개인정보 처리방침
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">
+              이용약관
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">
+              윤리경영 사이버 감사실
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">
+              영상정보처리기기 운영관리방침
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">
+              포드 고객센터
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">
+              세일즈 프로모션
+            </a>
+          </li>
+          <li>
+            Copyright © 2022 Ford Sales & Service Korea Inc.
+          </li>
+        </ul>
+        
+      </div>
+      <div class="footer-bottom">
+        <ul class="footer-icons">
+          <li>
+            <i class="fab fa-instagram"></i>
+          </li>
+          <li>
+            <i class="fab fa-youtube"></i>
+          </li>
+          <li>
+            <i class="fab fa-facebook-f"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

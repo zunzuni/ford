@@ -1,0 +1,80 @@
+$main-color: #2d96cd;
+
+section {
+  background-image: url(../images/signin-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 170px;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+  h1 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .signin__card {
+    width: 450px;
+    margin: 0 auto;
+    background-color: #efefef;
+    padding: 0 24px;
+    h2 {
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      padding: 24px 0;
+      margin-bottom: 24px;
+      font-size: 18px;
+    }
+    form {
+      input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 18px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 0;
+        &:nth-child(3) {
+          background-color: $main-color;
+          font-size: 18px;
+          color: white;
+          &:hover {
+            background-color: #2a8fc5;
+            cursor: pointer;
+            transition: all .2s;
+          }
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+      p {
+        font-size: 14px;
+        text-align: center;
+        padding: 12px 0;
+      }
+    }
+    .action {
+      display: flex;
+      border-top: 1px solid #ccc;
+      justify-content: space-around;
+      a {
+        padding: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  section {
+    .signin__card {
+      width: 300px;
+    }
+    .action {
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+}

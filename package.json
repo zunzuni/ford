@@ -1,0 +1,17 @@
+{
+  "name": "fordmustang",
+  "version": "1.0.0",
+  "description": "[데모사이트로 이동](~dd)\r # 📃 페이지 구성\r 페이지는 총 6페이지\r - main 페이지\r - vehicle 페이지\r - technology 페이지\r - about ford 페이지\r - customer center 페이지\r - sign in 페이지",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.45.1"
+  }
+}
