@@ -1,8 +1,8 @@
 # 🚗 FORD MUSTANG
 ## 포드머스탱 사이트입니다.
-[데모사이트로 이동](~https://zuniiiford.netlify.app)
+[데모사이트로 이동](https://zuniiiford.netlify.app)
 # 📃 페이지 구성
-페이지는 총 6페이지
+페이지는 총 6페이지Cancel changes
 - main 페이지
 - vehicle 페이지
 - technology 페이지
