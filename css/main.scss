@@ -434,7 +434,7 @@ $sub-background-color: #f6f3f2;
           box-shadow: 2px 2px 5px 2px rgba(#000, .5);
           height: 180px;
           background-color: gray;
-          background-image: url(https://www.ford.co.kr/content/ford/kr/ko_kr/home/cars/mustang/features/design/_jcr_content/par/billboard/imageComponent/image.imgs.full.high.jpg);
+          background-image: url(../images/section4-img1.jpg);
           background-size: cover;
           background-position: center;
           a {
@@ -449,7 +449,32 @@ $sub-background-color: #f6f3f2;
           }
         }
         &:nth-child(3) {
-          background-color: red;
+          background-image: url(../images/section4-img2.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          color: #fff;
+          text-align: center;
+          h6 {
+            padding-top: 30px;
+            font-size: 20px;
+          }
+          p {
+            font-size: 18px;
+            margin-top: 10px;
+          }
+          a {
+            display: block;
+            width: 90px;
+            height: 30px;
+            margin: 30px auto;
+            border: 1px solid #fff;
+            line-height: 30px;
+            transition: all .2s;
+            &:hover {
+              background-color: rgba(#000, .5);
+            }
+          }
         }
       }
     }
