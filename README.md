@@ -2,14 +2,15 @@
 ## 포드머스탱 사이트입니다.
 [데모사이트로 이동](https://zuniiiford.netlify.app)
 # 📃 페이지 구성
-페이지는 총 6페이지Cancel changes
-- main 페이지
-- vehicle 페이지
-- technology 페이지
-- about ford 페이지
-- customer center 페이지
-- sign in 페이지  
+페이지는 총 6페이지
+- [main 페이지](https://zuniiiford.netlify.app/)
+- [vehicle 페이지](https://zuniiiford.netlify.app/components/vehicle.html)
+- [technology 페이지](https://zuniiiford.netlify.app/components/tech.html)
+- [about ford 페이지](https://zuniiiford.netlify.app/components/company.html)
+- [customer center 페이지](https://zuniiiford.netlify.app/components/cc.html)
+- [sign in 페이지](https://zuniiiford.netlify.app/components/signin.html)  
 
+  
 로 구성되었습니다
 # ⭐ 파비콘 Favicon
 포드 머스탱의 로고를 이용하여 파비콘을 만들었습니다.  
