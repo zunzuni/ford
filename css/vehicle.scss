@@ -410,7 +410,7 @@ $title-height: 100px;
 }
 
 .vehicle-section7 {
-  padding-top: 50px;
+  padding: 24px 0;
   background-color: $sub-background-color;
   .inner {
     max-width: 1200px;
@@ -584,10 +584,12 @@ $title-height: 100px;
   
   .vehicle-section7 {
     .inner {
+      display: block;
       h2 {
         font-size: 22px;
       }
       >div {
+        width: 100%;
         flex-flow: row;
         .vehicle-section7-btn {
           width: calc(33.333333% - 40px / 3);

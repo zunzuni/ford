@@ -502,22 +502,29 @@ $sub-background-color: #f6f3f2;
         overflow: hidden;
         &.sns-title {
           background-color: white;
+          // background-image: url(../images/insta-logo.jpg);
+          // background-position: center;
+          // background-size: cover;
           h4 {
             color: #444;
-            background: linear-gradient();
-            opacity: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             img {
               width: 100%;
               height: auto;
               opacity: .4;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translateX(-50%) translateY(-50%);
             }
             span {
               color: #444;
               font-weight: 600;
               font-size: 30px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translateX(-50%) translateY(-50%);
+              text-align: center;
             }
           }
         }
