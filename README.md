@@ -64,7 +64,8 @@ window.addEventListener('scroll', () => {
   console.log(window.scrollY)
 })
 ```
-스크롤 이벤트는 전 페이지에 사용 되었습니다 함수를 이용해 가독성과 실용성을 모두 잡았습니다
+
+
 ```javascript
 const hide = function(t,y) {
   window.addEventListener('scroll',() => {
@@ -76,7 +77,7 @@ const hide = function(t,y) {
 hide(요소,Y값)
 ```
 ## Tab Menu
-탭메뉴를 css로 제작 할 수도 있었지만 클릭되었을 때 좀 더 동적인 느낌을 주기위하여 Js로 제작하였습니다
+
 ```javascript
 for(let i = 0; i < tabList.length; i++){
   tabList[i].addEventListener('click',() => {
